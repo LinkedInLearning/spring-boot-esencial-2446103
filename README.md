@@ -1,12 +1,12 @@
 # Spring Boot esencial
 
-Este es el repositorio del curso de LinkedIn Learning `[Spring Boot esencial]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
+Este es el repositorio del curso de LinkedIn Learning `Spring Boot esencial`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
 ![Nombre completo del curso][lil-thumbnail-url] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
-DESCRIPCIÓN DEL CURSO
+Adéntrate en el mundo de Spring Boot con este curso diseñado para programadores Java interesados en mejorar su eficiencia laboral. Aprende las funcionalidades clave de Spring Boot y aplícalas en un proyecto coherente durante el curso. Aborda temas como fundamentos, desarrollo web, persistencia de datos, línea de comandos, seguridad y mensajería. Además, explora herramientas complementarias como Thymeleaf, H2 y RabbitMQ, para enriquecer tu experiencia en Spring Boot y potenciar tus habilidades en Java.
 
 ## Instrucciones
 

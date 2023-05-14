@@ -1,0 +1,23 @@
+server:
+  port: 8080
+---
+spring:
+  config:
+    activate:
+      on-profile: "desarrollo"
+server:
+  port: 8081
+---
+spring:
+  config:
+    activate:
+      on-profile: "pruebas"
+server:
+  port: 8082
+---
+spring:
+  config:
+    activate:
+      on-profile: "produccion"
+server:
+  port: 9000

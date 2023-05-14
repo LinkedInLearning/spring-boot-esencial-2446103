@@ -1,0 +1,13 @@
+nombre: Reuniones
+
+environments:
+	dev:
+		url: https://dev.example.com
+		name: Developer Setup
+	prod:
+		url: https://another.example.com
+		name: My Cool App
+my:
+	servers:
+		- dev.example.com
+		- another.example.com

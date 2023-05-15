@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import es.dsrroma.school.springboot.reuniones.models.Persona;
 import es.dsrroma.school.springboot.reuniones.models.Reunion;
 
 @Controller
@@ -19,8 +20,13 @@ public class ReunionController {
 	
 	static {
 		for (int i = 0; i < 5; i ++) {
-			reuniones.add(new Reunion(i, "Reunión " + i,
-					ZonedDateTime.now().plusDays(i)));
+			Reunion reunion = new Reunion(i, "Reunión " + i, 
+					ZonedDateTime.now().plusDays(i));
+			for (int j = 0; j < i; j ++) {
+				reunion.addAsistente(
+						new Persona(i+j, "Nombre " + i + j, "Apellido " + i + j));
+			}
+			reuniones.add(reunion);
 		}
 	}
 	

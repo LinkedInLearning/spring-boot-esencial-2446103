@@ -9,7 +9,7 @@
 	<ul>
 		<li th:each="reunion:${reuniones}">
 			<span th:text="${reunion.asunto}">Asunto</span> 
-			(<span th:text="${reunion.fecha}">Fecha</span>)
+			(<span th:text="${#temporals.format(reunion.fecha, 'dd-MMM-yyyy')}">Fecha</span>)
 		</li>
 	</ul>
 </body>

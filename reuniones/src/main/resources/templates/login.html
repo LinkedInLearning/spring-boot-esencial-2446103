@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Acceso a las reuniones</title>
+</head>
+<body>
+	<div th:if="${param.error}">
+	    Usuario o contraseña incorrectos.
+	</div>
+	<div th:if="${param.logout}">
+	    Has salido de la cuenta.
+	</div>
+	<form th:action="@{/login}" method="post">
+		<div>
+			<label>Usuario: <input type="text" name="username"/></label>
+		</div>
+		<div>
+			<label>Contraseña: <input type="password" name="password"/></label>
+		</div>
+		<div>
+			<input type="submit" value="Entrar"/>
+		</div>
+	</form>
+</body>
+</html>

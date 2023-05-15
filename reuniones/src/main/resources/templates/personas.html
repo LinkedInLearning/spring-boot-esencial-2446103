@@ -12,5 +12,8 @@
 			<span th:text="${persona.apellidos}"></span> 
 		</li>
 	</ul>
+	<form method="POST" th:action="@{/logout}">
+	    <button type="submit">Logout</button>
+	</form> 
 </body>
 </html>

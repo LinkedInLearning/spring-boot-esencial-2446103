@@ -17,6 +17,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: "none"
+  data:
+    rest:
+      base-path: "api/rest"
 ---
 spring:
   config:

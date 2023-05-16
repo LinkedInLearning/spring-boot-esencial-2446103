@@ -19,4 +19,8 @@ public class PersonaService {
 	public List<Persona> getAllPersonas() {
 		return personaRepository.findAll();
 	}
+
+	public Persona getById(long id) {
+		return personaRepository.findById(id).get();
+	}
 }

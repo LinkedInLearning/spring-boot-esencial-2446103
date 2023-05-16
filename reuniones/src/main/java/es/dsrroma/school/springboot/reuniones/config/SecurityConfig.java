@@ -19,7 +19,8 @@ public class SecurityConfig {
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		http.authorizeHttpRequests().requestMatchers("/api/*", "/api/rest/**") //
 				.hasRole("API_USER") //
-				.and().authorizeHttpRequests().requestMatchers("/*").authenticated() //
+				.and().authorizeHttpRequests() //
+				.requestMatchers("/*", "/actuator/**").authenticated() //
 				.and().formLogin().loginPage("/login").permitAll() //
 				.and().logout().permitAll()
 				;

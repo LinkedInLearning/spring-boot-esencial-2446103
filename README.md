@@ -10,19 +10,20 @@ Adéntrate en el mundo de Spring Boot con este curso diseñado para programadore
 
 ## Instrucciones
 
-Este repositorio tiene ramas (branches) para cada uno de los vídeos del curso. Puedes usar el menú emergente de la rama en GitHub para cambiar a una rama específica y echar un vistazo al curso en esa etapa, o puedes añadir `/tree/nombre_de_la_rama` a la URL para ir a la rama a la que quieres acceder.
+Este repositorio tiene un historial con un commit por cada uno de los vídeos del curso. Puedes verlo clicando en el enlace que indica el número de commits, o puedes añadir `/commits/main` a la URL para verlo.
 
-## Ramas
+## Commits
 
-Las ramas están estructuradas para corresponder a los vídeos del curso. La convención de nomenclatura es Capítulo#_Vídeo#. Por ejemplo, la rama denominada `02_03` corresponde al segundo capítulo y al tercer vídeo de ese capítulo. Algunas ramas tendrán un estado inicial y otro final. Están marcadas con las letras i («inicio») y f («fin»). La branch i tiene el mismo código que al principio del vídeo. La branch f tiene el mismo código que al final del vídeo. La rama master tiene el estado final del código que aparece en el curso.
+Los commits están ordenados de más nuevo a más antiguo. Cada mensaje de commit empieza con la nomenclatura Capítulo#_Vídeo#. Por ejemplo, el commit que empieza por `02_05` corresponde al segundo capítulo y al quinto vídeo de ese capítulo. Todos los commits se corresponden al resultado final de un capítulo, así que si quieres coger el código correspondiente al principio del vídeo, tienes que seleccionar el commit anterior.
 
 ## Instalación
 
 1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
-   - [software]
+   - Git
+   - Java 8 o superior
 
 2. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
-3. [Instrucciones específicas del curso].
+3. Abre el código en tu IDE favorito.
 
 ### Docente
 

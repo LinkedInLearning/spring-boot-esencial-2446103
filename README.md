@@ -2,7 +2,7 @@
 
 Este es el repositorio del curso de LinkedIn Learning `Spring Boot esencial`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![image](https://github.com/LinkedInLearning/spring-boot-esencial-2446103/assets/71371373/6ed3f0f2-1b0d-48a0-ba30-9430f3e02658)
+![image][lil-thumbnail-url] 
  
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
@@ -33,6 +33,6 @@ Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.c
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/spring-boot-esencial/un-framework-que-deberias-conocer
-[lil-thumbnail-url]: https:
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHl_Vm9sQp-AA/learning-public-crop_675_1200/0/1689063544551?e=2147483647&v=beta&t=yFgUXVG6QQQsKe7Soorr00ZZKMm7a0Mz-T1iHO6-Loc
 
 [1]: # (End of ES-Instruction ###############################################################################################)
